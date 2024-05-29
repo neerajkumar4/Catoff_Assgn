@@ -20,14 +20,27 @@ Develop a basic NESTjs application to manage a PostgreSQL database with two tabl
 2. Install the dependencies:
     `npm install`
 3. Update your `.env` file with the database connection details:
-    ```DATABASE_HOST=localhost
+    ```
+    DATABASE_HOST=localhost
     DATABASE_PORT=5432
     DATABASE_USER=your_db_user
     DATABASE_PASSWORD=Nere@1234
-    DATABASE_NAME=catoff_assgn```
+    DATABASE_NAME=catoff_assgn 
+    ```
 4. Run the application:
     `npm run start:dev`
-
+## API Endpoints
+###     Users
+1.  Create a User:
+        Method: POST
+        URL: /users  
+        Body: ```
+        {
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "password": "securepassword"
+        }
+        ``` 
 ## Validation
 Basic validation is implemented using class-validator decorators in the DTOs to ensure data integrity.
 
