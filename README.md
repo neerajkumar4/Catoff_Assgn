@@ -28,14 +28,14 @@ Develop a basic NESTjs application to manage a PostgreSQL database with two tabl
 4. Run the application:
     `npm run start:dev`
 
-##Validation
+## Validation
 Basic validation is implemented using class-validator decorators in the DTOs to ensure data integrity.
 
-##Error Handling
+## Error Handling
 The application includes basic error handling to provide appropriate responses for common errors such as not found and validation errors.
 
-##Testing
+## Testing
 Use tools like Postman or curl to test the API endpoints. Ensure the application is running and the database is properly connected.
 
-##Code Quality
+## Code Quality
 The code follows basic NESTjs conventions and is well-commented to ensure readability and maintainability.
