@@ -41,10 +41,10 @@ Develop a basic NESTjs application to manage a PostgreSQL database with two tabl
             "password": "securepassword"
         }
         ``` 
-2. Get All Users
+2. Get All Users->
         Method: GET
         URL: `/users`
-3. Get a Single User
+3. Get a Single User->
         Method: GET
         URL:`/users/{id}`
 4.  Update a User->
@@ -57,7 +57,7 @@ Develop a basic NESTjs application to manage a PostgreSQL database with two tabl
             "password": "anotherpassword"
         }
         ``` 
-3. Delete a User
+3. Delete a User->
         Method: DELETE
         URL:`/users/{id}`
 
